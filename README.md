@@ -16,7 +16,7 @@ transactional-update pkg install cockpit-ws cockpit-system cockpit-bridge cockpi
 
 Keep in mind that the firewall may already be active. This can be switched off with the following command. 
 
-````shell
+```shell
 systemctl stop firewalld.service
 ```
 
